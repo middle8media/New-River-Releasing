@@ -1,0 +1,198 @@
+/*
+******************************
+* =Module code:
+******************************
+*/
+
+            <div id="myModal" class="modal hide fade">
+          <h1>Message Recieved</h1>
+          <h3>for news and updates please join our mailing list</h3>
+          <!-- Begin MailChimp Signup Form -->
+      <link href="http://cdn-images.mailchimp.com/embedcode/slim-081711.css" rel="stylesheet" type="text/css">
+      <style type="text/css">
+        /*#mc_embed_signup{background:#fff; clear:left; font:14px Helvetica,Arial,sans-serif; }*/
+        /* Add your own MailChimp form style overrides in your site stylesheet or in this style block.
+           We recommend moving this block and the preceding CSS link to the HEAD of your HTML file. */
+      </style>
+      <div id="mc_embed_signup">
+      <form action="http://middle8media.us1.list-manage.com/subscribe/post?u=2665bd57062c5a4d756e2d892&amp;id=b60dd9bb5c" method="post" id="embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate">
+        <input type="email" value="" name="EMAIL" class="email" id="mce-EMAIL" placeholder="email address" required>
+        <div class="clear"><input type="submit" value="Submit »" name="subscribe" id="mc-embedded-subscribe" class="button_red"></div>
+      </form>
+      </div>
+      <!--End mc_embed_signup-->
+            </div>
+
+/*
+******************************
+* =footer code
+******************************
+*/
+
+<footer>
+<div class="container">
+	<div class="row">
+		<div class="span4">
+			<h2>Follow us on Twitter</h2>
+			<script charset="utf-8" src="http://widgets.twimg.com/j/2/widget.js"></script>
+			<script>
+			new TWTR.Widget({
+			  version: 2,
+			  type: 'profile',
+			  rpp: 5,
+			  interval: 30000,
+			  width: '290',
+			  height: '148',
+			  theme: {
+			    shell: {
+			      background: '#68747e',
+			      color: '#ffffff'
+			    },
+			    tweets: {
+			      background: '#ffffff',
+			      color: '#222222',
+			      links: '#476d99'
+			    }
+			  },
+			  features: {
+			    scrollbar: true,
+			    loop: false,
+			    live: false,
+			    behavior: 'all'
+			  }
+			}).render().setUser('middle8media').start();
+			</script>
+		</div>
+		<div id="socialize" class="span4">
+			<h2>Connect with Us</h2>
+			<ul>
+				<li><a href="http://www.facebook.com/newriverreleasing"><img src="img/facebook.png" alt="facebook" title="New River on Facebook"/></a></li>
+				<li><a href="http://www.wunderkit.com/#/newriverreleasing"><img src="img/wunderkit.png"alt="wunderkit" title="New River on Wunderkit"/></a></li>
+			</ul>	
+		</div>
+		<div class="span4 pull-right">
+			<h2>Email Us</h2>
+			<form name="contactform" method="post" action="send_form_email.php">
+				<table width="100%">
+				<tr>
+				 <td valign="top">
+				  <input  type="text" name="name" placeholder="name" maxlength="50" size="30">
+				 </td>
+				</tr>
+				<tr>
+				 <td valign="top">
+				  <input  type="text" name="email" placeholder="email" maxlength="80" size="30">
+				 </td>
+				</tr>
+				<tr>
+				 <td valign="top">
+				  <textarea  name="message" placeholder="message" maxlength="1000" cols="25" rows="6"></textarea>
+				 </td>
+				</tr>
+				<tr>
+				 <td colspan="2" style="text-align:center; float:right;">
+				  <input type="submit" class="button_red" value="Submit »">
+				</td>
+				</tr>
+				</table>
+			</form>
+		</div>			
+	</div>
+</div>
+
+<div class="container">
+	<div class="row">
+		<div class="span12 copyright">
+			<p>© 2012 New River Releasing Company, LLC. All Rights Reserved</p>
+		</div>
+	</div>
+</div>
+</footer>
+
+
+/*
+******************************
+* =Twitter Widget
+******************************
+*/
+
+<h2>Follow us on Twitter</h2>
+			<script charset="utf-8" src="http://widgets.twimg.com/j/2/widget.js"></script>
+			<script>
+			new TWTR.Widget({
+			  version: 2,
+			  type: 'profile',
+			  rpp: 5,
+			  interval: 30000,
+			  width: '260',
+			  height: '148',
+			  theme: {
+			    shell: {
+			      background: '#68747e',
+			      color: '#ffffff'
+			    },
+			    tweets: {
+			      background: '#ffffff',
+			      color: '#222222',
+			      links: '#476d99'
+			    }
+			  },
+			  features: {
+			    scrollbar: true,
+			    loop: false,
+			    live: false,
+			    behavior: 'all'
+			  }
+			}).render().setUser('middle8media').start();
+			</script>
+
+
+
+
+
+/*
+******************************
+* =FlexSlider
+******************************
+*/
+
+<!-- main slider -->
+<!-- <div class="container main-slider">
+	<div class="row">
+		<div class="span12">
+			<div class="flexslider">
+			  <ul class="slides">
+			    <li>
+					<a href="feature-films/lake-of-fire" alt="Swimming in a Lake of Fire" title="Swimming in a Lake of Fire"><img src="img/lof-home-slide.jpg" />
+					<p class="flex-caption">Click to read about New River's first feature film</p>
+					</a>
+			    </li> 
+			    <li>
+					<a href="http://moviesamongfriends.com" alt="Movies Among Friends" title="Movies Among Friends" target="_blank"><img src="img/maf-home-slide.jpg" />
+					<p class="flex-caption">Click to join New River's filmmaking community</p>
+					</a>
+			    </li>   
+			    <li>
+					<a href="/web-series" alt="The Hive Web Drama" title="The Hive Web Drama"><img src="img/hive-home-slide.jpg" />
+					<p class="flex-caption">Coming to a browser near you!!</p>
+					</a>
+			    </li>
+			    <li>
+					<a href="/short-films/horse" alt="Horse the Movie" title="HORSE the Movie"><img src="img/horse-home-slide.jpg" />
+					<p class="flex-caption">Feature Film in progress, click to watch the short film</p>
+					</a>
+			    </li>
+			  </ul>
+			</div>
+			<ol class="flex-control-nav">
+				<li><a class="active">1</a></li>
+				<li><a class="">2</a></li>
+				<li><a class="">3</a></li>
+				<li><a class="">4</a></li>
+			</ol>
+		</div>
+	</div>
+</div> -->
+
+
+<!-- intro -->

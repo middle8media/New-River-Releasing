@@ -1,0 +1,202 @@
+/*-------------------------
+	Simple reset
+--------------------------*/
+
+
+*{
+	margin:0;
+	padding:0;
+}
+
+
+/*
+******************************
+* =@font-face
+******************************
+*/
+
+@font-face {
+    font-family: 'Cubano';
+    src: url('../fonts/cubano-regular-webfont.eot');
+    src: url('../fonts/cubano-regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/cubano-regular-webfont.woff') format('woff'),
+         url('../fonts/cubano-regular-webfont.ttf') format('truetype'),
+         url('../fonts/cubano-regular-webfont.svg#CubanoRegular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+/*-------------------------
+	General Styles
+--------------------------*/
+
+
+html{
+	/* CSS3 Multiple backgrounds with a fallback */
+	
+	background-color:#e4e4e4;
+	background:url('/img/light-ios-linen.jpg');
+}
+
+body{
+	font-family: “Helvetica Neue”, Arial, Helvetica, sans-serif;
+	color:#888;
+	padding:10px;
+	min-height:600px;
+	font:16px/1.3 'Segoe UI',Arial, sans-serif;
+	text-shadow: 1px 1px 1px rgba(255, 255, 255, 0.7);
+}
+
+a, a:visited {
+	text-decoration:none;
+	outline:none;
+	color:#54a6de;
+}
+
+a:hover{
+	text-decoration:underline;
+}
+
+#wrapper {
+	width:960px;
+	margin: 0px auto;
+}
+
+/*----------------------------
+	Headers & Footers
+-----------------------------*/
+
+#logo {
+	width:960px;
+	height:68px;
+	padding-bottom:50px;
+}
+
+.maf-logo img {
+	float: right;
+	margin: 0px 157px 0px 0px;
+}
+
+header{
+	display:block;
+}
+
+h1{
+	font-family: “Helvetica Neue”, Arial, Helvetica, sans-serif;
+	height:*0px;
+/*	text-indent:-99999px;*/
+	overflow:hidden;
+/*	background:url('../img/h1.png') no-repeat center center;*/
+	margin:100px auto 40px;
+	text-align:center;
+}
+
+h2{
+	font-size: 17px;
+	font-style: italic;
+	font-weight: normal;
+	left: 27px;
+	position: absolute;
+	top: 36px;
+}
+
+footer{
+	color: #999999;
+	font-size: 15px;
+	line-height: 1.6;
+	padding: 40px 20px 0;
+	text-align: center;
+	display:block;
+}
+
+footer b{
+	color: #888888;
+	display: block;
+	font-size: 10px;
+	font-weight: normal;
+}
+
+body > img{
+	/* The twitter illustration */
+	
+	margin:50px auto 0;
+	display:block;
+}
+
+
+/*----------------------------
+	Main container
+-----------------------------*/
+
+
+#container{
+	width:450px;
+	height:300px;
+	padding:10px;
+	text-align:center;
+	margin:0 auto;
+	position:relative;
+	background-color:#fff;
+	display:block;
+	
+	-moz-border-radius:10px;
+	-webkit-border-radius:10px;
+	border-radius:10px;
+}
+
+#container:before,
+#container:after{
+	
+	/* Adding subtle shadows with before/after elements */
+	
+	content:'.';
+	text-indent:-99999px;
+	overflow:hidden;
+	display:block;
+	height:12px;
+	width:470px;
+	background:url('../img/shadows.png') no-repeat center top;
+	position:absolute;
+	left:0;
+	top:-12px;
+}
+
+#container:after{
+	top:auto;
+	bottom:-12px;
+	background-position:center bottom;
+}
+
+#container p{
+	font:24px/1.3 'Segoe UI Light','Segoe UI',Arial,sans-serif;
+	padding: 70px 0 48px;
+}
+
+
+/*----------------------------
+	Download Button
+-----------------------------*/
+
+
+a.downloadButton{
+	display:inline-block;
+	width:187px;
+	height:69px;
+	text-indent:-99999px;
+	overflow:hidden;
+	background:url('../img/buttons.png') no-repeat;
+	cursor:default;
+	border:none;
+	text-decoration:none !important;
+}
+
+a.downloadButton.active{
+	background-position:left bottom;
+	cursor:pointer;
+}
+
+a.downloadButton.active:hover{
+	opacity: .9;
+	-moz-opacity: .9;
+	filter:alpha(opacity=.9);
+}
